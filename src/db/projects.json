@@ -1,0 +1,77 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "img": "1.jpg",
+      "languages": "HTML CSS ",
+      "title": "Puupy-Figma",
+      "text": "Find your flag",
+      "live": "https://puupyfigma-media.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/puupyfigma-media."
+    },
+    {
+      "id": 2,
+      "img": "Novus-Bank.jpg",
+      "languages": "REACT.JS CSS JSON-SERVER",
+      "title": "Novus Bank",
+      "text": "Online Credit",
+      "live": "https://my-app-jv7q.vercel.app/",
+      "codes": "https://github.com/AzizjonIT/my-app"
+    },
+    {
+      "id": 3,
+      "img": "3.jpg",
+      "languages": "REACT CSS",
+      "title": "Construction-tools",
+      "text": "Online shop",
+      "live": "https://construction-tools.vercel.app/",
+      "codes": "https://github.com/AzizjonIT/construction-tools"
+    },
+    {
+      "id": 4,
+      "img": "2.jpg",
+      "languages": "HTML CSS",
+      "title": "Toystore Figma",
+      "text": "Toystore Website",
+      "live": "https://toystoremedia.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/toystore"
+    },
+    {
+      "id": 5,
+      "img": "Outdoor.jpg",
+      "languages": "HTML CSS",
+      "title": "Outdoor Voices",
+      "text": "Outdoor Voices Website",
+      "live": "https://3-react-figma.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/3-FIGMA-RACT"
+    }
+  ],
+
+  "smallWroks": [
+    {
+      "id": 1,
+      "languages": "HTML CSS",
+      "title": "Calculator",
+      "text": "Calculator-apple",
+      "live": "https://calculator-apple-js.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/CALCULATOR-APPLE"
+    },
+    {
+      "id": 2,
+      "languages": "HTML CSS",
+      "title": "CUBE-ANIMATSA",
+      "text": "CUBE",
+      "live": "https://cube-animatsa.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/CUBE-ANIMATSA"
+    },
+    {
+      "id": 3,
+      "languages": "HTML CSS",
+      "title": "Tasbex-uz",
+      "text": "Tasbex",
+      "live": "https://uz-tasbex.netlify.app/",
+      "codes": "https://github.com/AzizjonIT/tasbex-uz"
+    }
+   
+  ]
+}

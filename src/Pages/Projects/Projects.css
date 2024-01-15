@@ -1,0 +1,752 @@
+.Projects_container {
+  border-radius: 8px;
+  border: 1px solid #a8bacc;
+  width: 1440px;
+  height: auto;
+  margin: auto;
+  background: #011627;
+  padding: 30px;
+}
+
+.projects_cart {
+  width: 320px;
+  height: 400px;
+  border: 2px solid aliceblue;
+  border-top-left-radius: 30px;
+  transition: 0.5s;
+}
+
+.projects_cart:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.small_projects_cart {
+  width: 320px;
+  height: 230px;
+  border: 2px solid aliceblue;
+  border-top-left-radius: 30px;
+  transition: 0.5s;
+}
+
+.small_projects_cart:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.projects_row {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #011627;
+  gap: 30px;
+}
+
+.small_projects_row {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #011627;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.cart_img {
+  width: 318px;
+  height: 170px;
+  border-top-left-radius: 28px;
+}
+
+.cart_text {
+  margin: 20px;
+  color: aliceblue;
+}
+
+.cart_but {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_button {
+  margin-top: 30px;
+  width: 120px;
+  height: 30px;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid aliceblue;
+}
+
+.cart_button:hover {
+  background-color: aliceblue;
+  color: #01080e;
+  font-weight: 500;
+}
+
+.Small_project {
+  padding-top: 40px;
+  margin-bottom: 0;
+  background: #011627;
+  color: aliceblue;
+}
+
+.big_project {
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  background: #011627;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 1440px) {
+  .Projects_container {
+    width: 1370px;
+  }
+
+  .projects_cart {
+    width: 305px;
+    height: 400px;
+  }
+
+  .small_projects_cart {
+    width: 305px;
+    height: 230px;
+  }
+  .cart_img {
+    width: 303px;
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .Projects_container {
+    width: 1300px;
+  }
+
+  .projects_cart {
+    width: 285px;
+    height: 380px;
+  }
+
+  .small_projects_cart {
+    width: 285px;
+    height: 210px;
+  }
+  .cart_img {
+    width: 283px;
+    height: 170px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1302px) {
+  .Projects_container {
+    width: 1230px;
+  }
+
+  .projects_cart {
+    width: 275px;
+    height: 380px;
+  }
+
+  .small_projects_cart {
+    width: 275px;
+    height: 210px;
+  }
+  .cart_img {
+    width: 273px;
+    height: 170px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1232px) {
+  .Projects_container {
+    width: 1150px;
+    padding: 20px;
+  }
+
+  .projects_cart {
+    width: 265px;
+    height: 355px;
+  }
+
+  .small_projects_cart {
+    width: 265px;
+    height: 205px;
+  }
+  .cart_img {
+    width: 263px;
+    height: 150px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .Projects_container {
+    width: 1070px;
+  }
+
+  .projects_cart {
+    width: 245px;
+    height: 355px;
+  }
+
+  .small_projects_cart {
+    width: 245px;
+    height: 205px;
+  }
+  .cart_img {
+    width: 243px;
+    height: 150px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1072px) {
+  .Projects_container {
+    width: 990px;
+  }
+
+  .projects_cart {
+    width: 225px;
+    height: 335px;
+  }
+
+  .small_projects_cart {
+    width: 225px;
+    height: 205px;
+  }
+  .cart_img {
+    width: 223px;
+    height: 130px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Projects_container {
+    width: 910px;
+  }
+
+.projects_cart {
+    width: 275px;
+    height: 370px;
+  }
+
+  .small_projects_cart {
+    width: 275px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 273px;
+    height: 150px;
+  }
+  .cart_text {
+    margin: 20px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 912px) {
+  .Projects_container {
+    width: 840px;
+   
+  }
+
+ 
+
+.projects_cart {
+    width: 255px;
+    height: 350px;
+  }
+
+  .small_projects_cart {
+    width: 255px;
+    height: 205px;
+  }
+  .cart_img {
+    width: 253px;
+    height: 140px;
+  }
+  .cart_text {
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 842px) {
+  .Projects_container {
+    width: 780px;
+  }
+
+.projects_cart {
+    width: 235px;
+    height: 330px;
+  }
+
+  .small_projects_cart {
+    width: 235px;
+    height: 205px;
+  }
+  .cart_img {
+    width: 233px;
+    height: 130px;
+  }
+  .cart_text {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+  }
+
+  .cart_button {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 782px) {
+  .Projects_container {
+    width: 710px;
+    padding: 30px;
+  }
+
+.projects_cart {
+    width: 310px;
+    height: 390px;
+  }
+
+  .small_projects_cart {
+    width: 310px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 307px;
+    height: 170px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 712px) {
+  .Projects_container {
+    width: 640px;
+  }
+
+.projects_cart {
+    width: 280px;
+    height: 380px;
+  }
+
+  .small_projects_cart {
+    width: 280px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 277px;
+    height: 160px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+
+}
+
+@media only screen and (max-width: 642px) {
+  .Projects_container {
+    width: 570px;
+    padding: 20px;
+  }
+
+.projects_cart {
+    width: 260px;
+    height: 370px;
+  }
+
+  .small_projects_cart {
+    width: 260px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 257px;
+    height: 150px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 50px;
+  }
+
+
+}
+
+@media only screen and (max-width: 572px) {
+  .Projects_container {
+    width: 500px;
+    padding: 15px;
+  }
+
+.projects_cart {
+    width: 230px;
+    height: 350px;
+  }
+
+  .small_projects_cart {
+    width: 230px;
+    height: 230px;
+  }
+  .cart_img {
+    width: 227px;
+    height: 140px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 50px;
+  }
+
+
+}
+
+@media only screen and (max-width: 502px) {
+  .Projects_container {
+    width: 440px;
+  }
+
+.projects_cart {
+    width: 200px;
+    height: 320px;
+  }
+
+  .small_projects_cart {
+    width: 200px;
+    height: 200px;
+  }
+  .cart_img {
+    width: 197px;
+    height: 120px;
+  }
+  .cart_text {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 50px;
+  }
+  .cart_button {
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    padding-top: 3px;
+  }
+
+}
+
+@media only screen and (max-width: 442px) {
+  .Projects_container {
+    width: 380px;
+    padding: 20px;
+  }
+
+.projects_cart {
+    width: 335px;
+    height: 390px;
+  }
+
+  .small_projects_cart {
+    width: 335px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 332px;
+    height: 170px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .projects_row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .small_projects_row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+  }
+  .cart_button {
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    padding-top: 2px;
+  }
+
+}
+
+@media only screen and (max-width: 382px) {
+  .Projects_container {
+    width: 330px;
+  }
+
+
+  
+.projects_cart {
+    width: 290px;
+    height: 380px;
+  }
+
+  .small_projects_cart {
+    width: 290px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 288px;
+    height: 160px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+    .cart_button {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    padding-top: 2px;
+  }
+
+}
+
+@media only screen and (max-width: 332px) {
+  .Projects_container {
+    width: 300px;
+    padding: 15px;
+  }
+
+.projects_cart {
+    width: 270px;
+    height: 380px;
+  }
+
+  .small_projects_cart {
+    width: 270px;
+    height: 220px;
+  }
+  .cart_img {
+    width: 268px;
+    height: 160px;
+  }
+  .cart_text {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+    .cart_button {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    padding-top: 2px;
+  }
+
+}
