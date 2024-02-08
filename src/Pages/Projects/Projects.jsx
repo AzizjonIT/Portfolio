@@ -10,7 +10,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:9000/works`)
+      .get(`https://json-server-production-4015.up.railway.app/works`)
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -18,7 +18,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:9000/smallWroks`)
+      .get(`https://json-server-production-4015.up.railway.app/smallWroks`)
       .then((res) => setSmallproducts(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -28,7 +28,7 @@ const Projects = () => {
       <Navbars />
       <div className="Projects_container">
         <div className="projects">
-          <h3 className="big_project">Big Projects</h3>
+          <h3 className="big_project">Projects</h3>
 
           <div className="projects_row">
             {products.map((products) => {
