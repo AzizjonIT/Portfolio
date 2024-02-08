@@ -41,8 +41,8 @@ const Projects = () => {
                       alt=""
                     />
                     <div className="cart_text">
-                      <p> {products.languages} </p>
                       <p> {products.title} </p>
+                      <p> {products.languages} </p>
                       <p> {products.text} </p>
                       <div className="cart_but">
                         <a className="cart_button" href={products.codes}>
@@ -67,8 +67,8 @@ const Projects = () => {
                 <React.Fragment key={smallproducts.id}>
                   <div className="small_projects_cart">
                     <div className="cart_text">
-                      <p> {smallproducts.languages} </p>
                       <p> {smallproducts.title} </p>
+                      <p> {smallproducts.languages} </p>
                       <p> {smallproducts.text} </p>
                       <div className="cart_but">
                         <a className="cart_button" href={smallproducts.codes}>

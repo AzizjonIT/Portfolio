@@ -7,7 +7,7 @@
   margin: 0;
   box-sizing: border-box;
   background: #01080E;
- 
+ user-select: none;
   font-style: normal;
 }
 
