@@ -10,7 +10,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-      .get(`https://json-server-production-4015.up.railway.app/works`)
+      .get(`https://back.azizjon-usmonaliyev.uz/works`)
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -18,7 +18,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-      .get(`https://json-server-production-4015.up.railway.app/smallWroks`)
+      .get(`https://back.azizjon-usmonaliyev.uz/smallWroks`)
       .then((res) => setSmallproducts(res.data))
       .catch((err) => console.log(err));
   }, []);
