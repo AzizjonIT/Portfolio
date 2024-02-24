@@ -17,9 +17,9 @@ const Home = () => {
             <h2 className="home_dev">Front-End Developer</h2>
             <hr className="home_hr" />
             <p className="home__p">
-              “I am a qualified Front-End developer specializing in website
-              development. I am currently improving my experience and I'm
-              creating a lot of websites”
+              “I am a qualified Front-End programmer specializing in website. I
+              am currently improving my experience, I'm creating a lot of
+              websites , go to the Contact section to contact me”
             </p>
             <hr className="home__hr" />
           </div>

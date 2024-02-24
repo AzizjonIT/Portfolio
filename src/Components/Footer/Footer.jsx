@@ -22,10 +22,10 @@ const Footer = () => {
           <a href="https://github.com/AzizjonIT">
             <IoLogoGithub id="icons" />
           </a>
-          <a href="https://t.me/Usmonaliyev_602">
+          <a href="https://t.me/azizjon_usmonaliyev">
             <FaTelegramPlane id="icons" />
           </a>
-          <a href="https://www.instagram.com/usmonaliyev.602/">
+          <a href="https://www.instagram.com/azizjon.usmonaliyev/">
             <BsInstagram id="icons" />
           </a>
         </div>
